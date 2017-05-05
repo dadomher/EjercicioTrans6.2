@@ -92,7 +92,7 @@ int main() {
 	glClearColor(1.0, 1.0, 1.0, 1.0);
 
 	//cargamos los shader
-	Shader sh = Shader("./src/c1Fragment.vertexshader", "./src/c1Fragment.fragmentshader");
+	Shader sh = Shader("./src/directionalFragment.vertexshader", "./src/directionalFragment.fragmentshader");
 	Shader sh2 = Shader("./src/c2Fragment.vertexshader", "./src/c2Fragment.fragmentshader");
 
 	obj1 = Object(vec3(0.5f), vec3(0.0f), vec3(0.0f), Object::cube);
